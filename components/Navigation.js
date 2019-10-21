@@ -26,7 +26,7 @@ const PlayNavigation = createStackNavigator({
     }
   },
   Play: {
-    screen: Play,
+    screen: PlayBear,
     headerMode: 'none',
     navigationOptions: {
         headerVisible: false,

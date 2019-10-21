@@ -25,7 +25,7 @@ export default class MyAppComponent extends React.Component {
   render(){
     return (
       <View style={{flex:1, flexDirection:"column", justifyContent:"flex-start", alignItems:"center"}}>
-        <YolanHeader height={30} fontSize={15} backgroundColor={'rgba(100,150,255,1)'}>Find the seal
+        <YolanHeader height={30} fontSize={15} backgroundColor={'rgba(100,150,255,1)'}>Save the bear
         </YolanHeader>
         <View style={{flex:1,  flexDirection:"row", backgroundColor:"rgba(156, 255, 169,1)"}}>
           <Navigation/>

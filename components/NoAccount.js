@@ -326,7 +326,7 @@ class NoAccountComponent extends React.Component {
               }
             </View>
           }
-          <Image style={{ height:400, width:400, opacity:1}} source={require('../assets/images/seal.png')}/>
+          <Image style={{ height:400, width:400, opacity:1}} source={require('../assets/images/bear.png')}/>
         </View>
 
       }

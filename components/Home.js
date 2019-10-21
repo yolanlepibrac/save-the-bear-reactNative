@@ -39,12 +39,12 @@ class HomeComponent extends Component {
 
           <View style={{flex:1, width:"80%", flexDirection:"column", alignItems:"center", justifyContent:"center"}}>
             <View style={{height:130, width:"100%", flexDirection:"column", justifyContent:"flex-end"}}>
-              <Image style={{height:130, width:"100%"}} source={require("../assets/images/seal/seal.png")}/>
+              <Image style={{height:130, width:"100%"}} source={require("../assets/images/bear/bear.png")}/>
               <View style={{ position:"absolute", right:20, top:10, borderRadius:5, borderWidth:1, backgroundColor:"rgba(255,255,255,0.7)", flexDirection:"row", textAlign:"center", alignItems:"center", padding:5}}>
-                <Text style={{fontSize:15}}>{"Hello, my name is Seal"}</Text>
+                <Text style={{fontSize:15}}>{"Hello, my name is Bear"}</Text>
               </View>
             </View>
-            <Text style={{textAlign:"justify", color:"white", marginTop:20, fontSize:16}}>I am hiding behind icebergs. Find me before the ice has molten. Click on the similar ice shape you will see below, for each round. Be quick to earn more points !
+            <Text style={{textAlign:"justify", color:"white", marginTop:20, fontSize:16}}>I'm stucked in the ocean on the last icebergs of the world. Use arrows to guide me to an other iceberg, before mine have molten.
             </Text>
           </View>
           <View style={{flex:1, width:"100%", flexDirection:"column", alignItems:"center", justifyContent:"center", backgroundColor:"white"}}>
